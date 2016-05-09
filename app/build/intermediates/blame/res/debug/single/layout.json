@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fragment4.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\fragment_fragment4.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fragment1.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\fragment_fragment1.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_tab.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\activity_main_tab.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_jijiankaijian_item.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\list_jijiankaijian_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_phone.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\fragment_phone.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fragment2.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\fragment_fragment2.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_click_item.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\tab_click_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fragment3.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\fragment_fragment3.xml"
+    }
+]

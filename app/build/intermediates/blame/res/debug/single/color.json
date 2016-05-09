@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\color_selected_home_page.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\src\\main\\res\\color\\color_selected_home_page.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\color.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\src\\main\\res\\color\\color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\color_pressed_home_page.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\app\\src\\main\\res\\color\\color_pressed_home_page.xml"
+    }
+]

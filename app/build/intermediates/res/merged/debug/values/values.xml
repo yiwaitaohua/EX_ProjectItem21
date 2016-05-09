@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="radio_button_selected_color">#ff33b5e5</color>
+    <color name="radio_button_unselected_color">#ffffff</color>
+    <color name="tabtv_former_color">#000000</color>
+    <color name="tabtv_pressed_color">#33BD61</color>
+    <color name="tabtv_selected_color">#D7071b</color>
+    <color name="xuanfu_item_backtrans">#00000000</color>
+    <string name="app_name">EX_ProjectItem2</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
