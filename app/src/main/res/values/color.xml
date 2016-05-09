@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tabtv_pressed_color" >#33BD61</color>
+    <color name="tabtv_selected_color" >#D7071b</color>
+    <color name="tabtv_former_color" >#000000</color>
+    <color name="xuanfu_item_backtrans">#00000000</color>
+    
+    <color name="radio_button_selected_color">#ff33b5e5</color>
+    <color name="radio_button_unselected_color">#ffffff</color>
+</resources>
