@@ -1,18 +1,22 @@
 [
     {
-        "merged": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shouye_qingdan.xml",
-        "source": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\src\\main\\res\\drawable\\shouye_qingdan.xml"
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\drawable\\progressbar.xml"
     },
     {
-        "merged": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shouye_wode.xml",
-        "source": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\src\\main\\res\\drawable\\shouye_wode.xml"
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shouye_wode.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\drawable\\shouye_wode.xml"
     },
     {
-        "merged": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shouye_home.xml",
-        "source": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\src\\main\\res\\drawable\\shouye_home.xml"
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shouye_kaijian.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\drawable\\shouye_kaijian.xml"
     },
     {
-        "merged": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shouye_kaijian.xml",
-        "source": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\src\\main\\res\\drawable\\shouye_kaijian.xml"
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shouye_qingdan.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\drawable\\shouye_qingdan.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shouye_home.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\drawable\\shouye_home.xml"
     }
 ]

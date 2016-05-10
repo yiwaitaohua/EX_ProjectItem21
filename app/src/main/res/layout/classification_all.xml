@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="121px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:id="@+id/textView30"
+            android:background="#E6E6E6"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="46px"
+            android:layout_height="46px"
+            android:id="@+id/imageView12"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="30px"
+            android:layout_marginStart="30px"
+            android:src="@drawable/fenlei_all_prizes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全部商品"
+            android:id="@+id/textView31"
+            android:textColor="#333333"
+            android:textSize="36px"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageView12"
+            android:layout_toEndOf="@+id/imageView12"
+            android:layout_marginLeft="30px"
+            android:layout_marginStart="30px" />
+
+        <ImageView
+            android:layout_width="46px"
+            android:layout_height="46px"
+            android:id="@+id/imageView13"
+            android:layout_alignTop="@+id/textView31"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30px"
+            android:layout_marginEnd="30px"
+            android:src="@drawable/enter_the_next_level" />
+    </RelativeLayout>
+</RelativeLayout>

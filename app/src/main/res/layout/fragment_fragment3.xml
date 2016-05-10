@@ -3,14 +3,16 @@
     android:id="@+id/RelativeLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.ex_projectitem2.Fragment3" >
+    tools:context="com.example.ex_projectitem2.Fragment3">
+
 
     <RelativeLayout
+        android:id="@+id/relativeLayout5"
         android:layout_width="match_parent"
         android:layout_height="96px"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:background="#ED483A" >
+        android:background="#ED483A">
 
         <TextView
             android:id="@+id/textView1"
@@ -18,10 +20,107 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="清单" 
-            android:textSize="36px"
-            android:textColor="#FFFFFF"/>
+            android:text="清单"
+            android:textColor="#FFFFFF"
+            android:textSize="36px" />
 
     </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout5"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="510px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                android:background="#F2F2F2">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="98px"
+                    android:layout_height="96px"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="150px"
+                    android:src="@drawable/qingd_empty_list" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView8"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30px"
+                    android:text="咦，清单空了?"
+                    android:textColor="#AAAAAA"
+                    android:textSize="32px" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="200px"
+                    android:layout_height="70px"
+                    android:layout_below="@+id/textView21"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50px"
+                    android:background="@drawable/qingd_immediately_indiana"
+                    android:gravity="center"
+                    android:text="立即夺宝"
+                    android:textColor="#ED483A"
+                    android:textSize="36px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="90px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/relativeLayout6">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="#E6E6E6" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30px"
+                    android:layout_marginStart="30px"
+                    android:text="猜你喜欢"
+                    android:textColor="#333333"
+                    android:textSize="32px" />
+            </RelativeLayout>
+
+            <com.chengchikeji_scrollview.www.MyGridView
+                android:id="@+id/MyGridView_cainixihuanb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/relativeLayout7"
+                android:numColumns="2"
+                android:scrollbars="none" />
+        </RelativeLayout>
+
+    </ScrollView>
 
 </RelativeLayout>

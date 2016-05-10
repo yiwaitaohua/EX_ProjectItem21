@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "outputFile": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\src\\main\\res\\values\\color.xml",
+                    "file": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 178
                 },
                 "from": {
-                    "file": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\src\\main\\res\\values\\color.xml",
+                    "file": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 231
                 },
                 "from": {
-                    "file": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\src\\main\\res\\values\\color.xml",
+                    "file": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 285
                 },
                 "from": {
-                    "file": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\src\\main\\res\\values\\color.xml",
+                    "file": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 340
                 },
                 "from": {
-                    "file": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\src\\main\\res\\values\\color.xml",
+                    "file": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 398
                 },
                 "from": {
-                    "file": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\src\\main\\res\\values\\color.xml",
+                    "file": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 451
                 },
                 "from": {
-                    "file": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 521
                 },
                 "from": {
-                    "file": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -164,7 +164,7 @@
                     "endOffset": 812
                 },
                 "from": {
-                    "file": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -185,7 +185,7 @@
                     "endOffset": 972
                 },
                 "from": {
-                    "file": "E:\\workspace\\AndroidStudioProjects\\Project0509\\EX_ProjectItem21\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
