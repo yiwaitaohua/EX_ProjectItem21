@@ -1,5 +1,6 @@
 package com.example.ex_projectitem2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -8,12 +9,15 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.chengchikeji_activity.www.GeRenShezhiActivity;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Fragment4 extends Fragment {
+public class Fragment4 extends Fragment implements View.OnClickListener {
 
 
     private String[] geren_up = new String[]{"正在进行", "已经揭晓", "中奖记录", "我的收藏", "", "晒单", "我的红包", "充值记录"};
@@ -33,8 +37,20 @@ public class Fragment4 extends Fragment {
         ListView listView = (ListView) inflate.findViewById(R.id.listUp_Personal_Center);
         MyPersonalCenterAdapter myListUp = new MyPersonalCenterAdapter();
         listView.setAdapter(myListUp);
+        
+        initID();
         return inflate;
     }
+
+    private void initID() {
+        
+        initClick();
+    }
+
+    private void initClick() {
+        inflate.findViewById(R.id.relative_GeRenSetting).setOnClickListener(this);
+    }
+
 
     class MyPersonalCenterAdapter extends BaseAdapter {
         @Override
@@ -67,6 +83,16 @@ public class Fragment4 extends Fragment {
         @Override
         public long getItemId(int position) {
             return 0;
+        }
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch(v.getId()){
+            case R.id.relative_GeRenSetting:
+                Intent intent = new Intent(getContext(), GeRenShezhiActivity.class);
+                startActivity(intent);
+                break;
         }
     }
 

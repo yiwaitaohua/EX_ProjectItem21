@@ -22,7 +22,7 @@
         <ImageView
             android:layout_width="46px"
             android:layout_height="46px"
-            android:id="@+id/imageView12"
+            android:id="@+id/fenlei_all_picture"
             android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -34,12 +34,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="全部商品"
-            android:id="@+id/textView31"
+            android:id="@+id/fenlei_all_text"
             android:textColor="#333333"
             android:textSize="36px"
             android:layout_centerVertical="true"
-            android:layout_toRightOf="@+id/imageView12"
-            android:layout_toEndOf="@+id/imageView12"
+            android:layout_toRightOf="@+id/fenlei_all_picture"
+            android:layout_toEndOf="@+id/fenlei_all_picture"
             android:layout_marginLeft="30px"
             android:layout_marginStart="30px" />
 
@@ -47,7 +47,7 @@
             android:layout_width="46px"
             android:layout_height="46px"
             android:id="@+id/imageView13"
-            android:layout_alignTop="@+id/textView31"
+            android:layout_alignTop="@+id/fenlei_all_text"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_marginRight="30px"

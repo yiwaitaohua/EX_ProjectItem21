@@ -11,39 +11,46 @@
         android:layout_height="96px"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:background="#ED483A">
+        android:background="#ED483A"
+        android:clipToPadding="true"
+        android:fitsSystemWindows="true">
 
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
+            android:layout_marginBottom="10px"
             android:text="口袋夺宝"
             android:textColor="#FFFFFF"
             android:textSize="36px" />
 
         <RelativeLayout
+            android:id="@+id/seach_home_page"
             android:layout_width="80px"
             android:layout_height="match_parent"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:gravity="center">
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
 
             <ImageView
                 android:id="@+id/imageView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10px"
                 android:src="@drawable/sousuo" />
 
         </RelativeLayout>
     </RelativeLayout>
 
+
     <ScrollView
         android:id="@+id/ScrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/relativeLayout2"
         android:fillViewport="false"
         android:scrollbars="none">
 
@@ -78,6 +85,7 @@
                         android:layout_weight="0.6"></LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/linearL_FenLei"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"

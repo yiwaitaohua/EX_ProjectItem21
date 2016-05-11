@@ -6,6 +6,8 @@
     <color name="tabtv_pressed_color">#33BD61</color>
     <color name="tabtv_selected_color">#D7071b</color>
     <color name="xuanfu_item_backtrans">#00000000</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="app_name">EX_ProjectItem2</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">

@@ -19,22 +19,22 @@
         <ImageView
             android:layout_width="42px"
             android:layout_height="42px"
-            android:id="@+id/imageView14"
+            android:id="@+id/fenlei_down_picture"
             android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="34px"
             android:layout_marginStart="34px"
-            android:background="@drawable/ic_launcher" />
+            android:src="@drawable/ic_launcher" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="10元专区"
-            android:id="@+id/textView33"
+            android:id="@+id/fenlei_down_text"
             android:layout_centerVertical="true"
-            android:layout_toRightOf="@+id/imageView14"
-            android:layout_toEndOf="@+id/imageView14"
+            android:layout_toRightOf="@+id/fenlei_down_picture"
+            android:layout_toEndOf="@+id/fenlei_down_picture"
             android:layout_marginLeft="34px"
             android:layout_marginStart="34px" />
 
