@@ -51,6 +51,7 @@
         android:id="@+id/ScrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout2"
         android:fillViewport="false"
         android:scrollbars="none">
 
@@ -63,7 +64,30 @@
                 android:id="@+id/RelativeLayout12"
                 android:layout_width="match_parent"
                 android:layout_height="280px"
-                android:layout_centerHorizontal="true"></RelativeLayout>
+                android:layout_centerHorizontal="true">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v4.view.ViewPager>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom">
+
+                    <com.chengchikeji_scrollview.www.PagerIndicator
+                        android:id="@+id/pagerIndicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+
+            </RelativeLayout>
 
             <RelativeLayout
                 android:id="@+id/RelativeLayou"

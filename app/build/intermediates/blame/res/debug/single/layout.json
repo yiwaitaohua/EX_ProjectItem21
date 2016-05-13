@@ -4,6 +4,10 @@
         "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\personal_center_item.xml"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_pager_banner.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\fragment_home_pager_banner.xml"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\classification_down.xml",
         "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\classification_down.xml"
     },
@@ -20,6 +24,10 @@
         "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sousuo_listitem.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\sousuo_listitem.xml"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
         "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
@@ -32,8 +40,16 @@
         "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\fragment_fragment4.xml"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recent_search.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\recent_search.xml"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fragment1.xml",
         "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\fragment_fragment1.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seach__home__page_.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\activity_seach__home__page_.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_jijiankaijian_item.xml",

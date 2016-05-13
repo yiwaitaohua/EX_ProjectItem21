@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="210px">
+
+        <ImageView
+            android:layout_width="180px"
+            android:layout_height="210px"
+            android:id="@+id/imageView34"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView59"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView34"
+            android:layout_toEndOf="@+id/imageView34"
+            android:layout_marginTop="30px"
+            android:textColor="#333333"
+            android:textSize="28px"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总需："
+            android:id="@+id/textView60"
+            android:layout_below="@+id/textView59"
+            android:layout_toRightOf="@+id/imageView34"
+            android:layout_toEndOf="@+id/imageView34"
+            android:layout_marginTop="20px"
+            android:textSize="24px"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6000"
+            android:id="@+id/textView61"
+            android:textSize="24px"
+            android:layout_alignTop="@+id/textView60"
+            android:layout_toRightOf="@+id/textView60"
+            android:layout_toEndOf="@+id/textView60" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人次"
+            android:id="@+id/textView62"
+            android:textSize="24px"
+            android:layout_alignTop="@+id/textView61"
+            android:layout_toRightOf="@+id/textView61"
+            android:layout_toEndOf="@+id/textView61" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="剩余："
+            android:id="@+id/textView63"
+            android:textSize="24px"
+            android:layout_marginLeft="30px"
+            android:layout_alignBottom="@+id/textView62"
+            android:layout_toRightOf="@+id/textView62"
+            android:layout_toEndOf="@+id/textView62" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123"
+            android:id="@+id/textView64"
+            android:textSize="24px"
+            android:textColor="#ED483A"
+            android:layout_alignBottom="@+id/textView63"
+            android:layout_toRightOf="@+id/textView63"
+            android:layout_toEndOf="@+id/textView63" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人次"
+            android:id="@+id/textView65"
+            android:textSize="24px"
+            android:layout_alignTop="@+id/textView62"
+            android:layout_toRightOf="@+id/textView64"
+            android:layout_toEndOf="@+id/textView64" />
+
+        <TextView
+            android:layout_width="120px"
+            android:layout_height="50px"
+            android:text="加入清单"
+            android:id="@+id/textView66"
+            android:textSize="24px"
+            android:textColor="#ED483A"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="20px"
+            android:layout_marginRight="30px"
+            android:layout_marginLeft="30px"
+            android:background="@drawable/qingd_join_list"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:id="@+id/textView67"
+            android:background="#E6E6E6"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="10px"
+            android:id="@+id/progressBar2"
+            android:layout_below="@+id/textView60"
+            android:layout_toRightOf="@+id/imageView34"
+            android:layout_marginTop="30px"
+            android:max="100"
+            android:layout_toLeftOf="@+id/textView66"
+            android:progressDrawable="@drawable/progressbar"
+            android:layout_toStartOf="@+id/textView66"
+            android:progress="30"/>
+
+        <ImageView
+            android:layout_width="66px"
+            android:layout_height="70px"
+            android:id="@+id/imageView35"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ten_yuan_area"
+            android:layout_marginLeft="20px"/>
+
+    </RelativeLayout>
+</LinearLayout>

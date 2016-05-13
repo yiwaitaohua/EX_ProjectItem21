@@ -18,5 +18,9 @@
     {
         "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shouye_home.xml",
         "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\drawable\\shouye_home.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sousuo_background.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\drawable\\sousuo_background.xml"
     }
 ]

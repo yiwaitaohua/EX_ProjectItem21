@@ -6,27 +6,233 @@
     tools:context="com.chengchikeji_activity.www.Seach_Home_Page_Activity">
 
     <RelativeLayout
+        android:id="@+id/relativeLayout21"
         android:layout_width="match_parent"
         android:layout_height="96px"
-        android:background="#ED483A"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#ED483A">
 
         <RelativeLayout
+            android:id="@+id/relativeLayout20"
             android:layout_width="80px"
             android:layout_height="match_parent"
-            android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true">
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true">
 
             <ImageView
+                android:id="@+id/imageView32"
                 android:layout_width="46px"
                 android:layout_height="46px"
-                android:id="@+id/imageView32"
-                android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
                 android:src="@drawable/back" />
         </RelativeLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="30px"
+            android:layout_marginRight="30px"
+            android:background="@null"
+            android:text="搜索"
+            android:textColor="#FFFFFF"
+            android:textSize="36px" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="66px"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/button2"
+            android:layout_toRightOf="@+id/relativeLayout20"
+            android:layout_toStartOf="@+id/button2"
+            android:background="@drawable/sousuo_background">
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="34px"
+                android:layout_height="34px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20px"
+                android:src="@drawable/sousuo" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30px"
+                android:layout_toEndOf="@+id/imageView33"
+                android:layout_toRightOf="@+id/imageView33"
+                android:background="@null"
+                android:hint="搜索"
+                android:textColorHint="#EBB1AE"
+                android:textSize="32px" />
+        </RelativeLayout>
     </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout21">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="212px"
+                android:background="#F2F2F2"
+                android:id="@+id/relativeLayout23">
+
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="30px"
+                    android:layout_marginTop="40px"
+                    android:text="热门搜索"
+                    android:textColor="#AAAAAA"
+                    android:textSize="32px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90px"
+                android:layout_below="@+id/relativeLayout23"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/relativeLayout24">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="最近搜索"
+                    android:textColor="#AAAAAA"
+                    android:textSize="32px"
+                    android:id="@+id/textView71"
+                    android:layout_marginLeft="30px"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <RelativeLayout
+                    android:layout_width="200px"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true">
+
+                    <ImageView
+                        android:layout_width="30px"
+                        android:layout_height="34px"
+                        android:id="@+id/imageView36"
+                        android:src="@drawable/empty"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/textView72"
+                        android:layout_marginRight="16px"
+                        android:layout_toStartOf="@+id/textView72" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="清空"
+                        android:layout_marginRight="30px"
+                        android:id="@+id/textView72"
+                        android:textSize="32px"
+                        android:textColor="#AAAAAA"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:id="@+id/textView73"
+                    android:background="#E6E6E6"
+                    android:layout_marginLeft="30px"
+                    android:layout_marginRight="30px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/listView2"
+                android:layout_below="@+id/relativeLayout24"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:divider="@null"
+                android:scrollbars="none"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout22"
+                android:layout_width="match_parent"
+                android:layout_height="90px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="#F2F2F2">
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30px"
+                    android:text="共3件商品"
+                    android:textColor="#333333"
+                    android:textSize="32px" />
+
+                <TextView
+                    android:id="@+id/textView69"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30px"
+                    android:text="全部加入清单"
+                    android:textColor="#ED483A"
+                    android:textSize="32px" />
+
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/relativeLayout22"
+                android:divider="@null"
+                android:scrollbars="none" />
+        </RelativeLayout>
+    </FrameLayout>
 </RelativeLayout>

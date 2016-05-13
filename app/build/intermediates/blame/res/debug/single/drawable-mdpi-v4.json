@@ -68,6 +68,10 @@
         "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-mdpi\\login_registration_input_box.png"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bannerimage2.png",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-mdpi\\bannerimage2.png"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\fenlei_new_trend.png",
         "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-mdpi\\fenlei_new_trend.png"
     },
@@ -94,6 +98,14 @@
     {
         "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\back.png",
         "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-mdpi\\back.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bannerimage.png",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-mdpi\\bannerimage.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ten_yuan_area.png",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-mdpi\\ten_yuan_area.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\enter_the_next_level.png",
@@ -130,6 +142,10 @@
     {
         "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\qingd_immediately_indiana.png",
         "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-mdpi\\qingd_immediately_indiana.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\empty.png",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-mdpi\\empty.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\fenlei_home_life.png",
