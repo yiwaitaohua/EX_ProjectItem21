@@ -10,6 +10,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
@@ -50,6 +52,13 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
         initBanner();
         initIndicator();
         initClick();
+        initControl();
+    }
+
+    private void initControl() {
+        GridView view2 = (GridView) inflate.findViewById(R.id.view2);
+        MyHomePagerAdpter myHomePagerAdpter = new MyHomePagerAdpter();
+        view2.setAdapter(myHomePagerAdpter);
     }
 
     private void initIndicator() {
@@ -120,8 +129,8 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
                 int item = mViewPager.getCurrentItem() + 1;
                 if (!isUserDrag && needAuto) {
                     mViewPager.setCurrentItem(item);
+                    mViewPager.postDelayed(this, 3000);
                 }
-                mViewPager.postDelayed(this, 3000);
             }
         }, 3000);
     }
@@ -130,6 +139,7 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
     public void onResume() {
         super.onResume();
 //        needAuto = true;
+//        isUserDrag = false;
         Log.e("onResume", "onResume");
 
     }
@@ -138,14 +148,8 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
     public void onStop() {
         super.onStop();
         needAuto = false;
+//        isUserDrag = true;
         Log.e("onStop", "onStop");
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        needAuto = false;
-        Log.e("onDestroy", "onDestroy");
     }
 
     private void initClick() {
@@ -166,5 +170,31 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
                 break;
 
         }
+    }
+
+    class MyHomePagerAdpter extends BaseAdapter{
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            View inflate = Fragment1.this.inflate.inflate(getContext(), R.layout.qingdan_caininihuan_griditem, null);
+            return inflate;
+        }
+
+        @Override
+        public int getCount() {
+            return 1;
+        }
+
+        @Override
+        public Object getItem(int position) {
+            return null;
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return 0;
+        }
+
+
     }
 }
