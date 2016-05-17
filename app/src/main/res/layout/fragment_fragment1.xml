@@ -6,7 +6,7 @@
     tools:context="com.example.ex_projectitem2.Fragment1">
 
     <RelativeLayout
-        android:id="@+id/relativeLayout2"
+        android:id="@+id/relativeLayout_actionBar"
         android:layout_width="match_parent"
         android:layout_height="96px"
         android:layout_alignParentTop="true"
@@ -19,11 +19,11 @@
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
             android:text="口袋夺宝"
             android:textColor="#FFFFFF"
-            android:textSize="36px"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true" />
+            android:textSize="36px" />
 
         <RelativeLayout
             android:id="@+id/seach_home_page"
@@ -47,306 +47,335 @@
     </RelativeLayout>
 
 
-    <ScrollView
-        android:id="@+id/ScrollView"
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/relativeLayout2"
-        android:fillViewport="false"
-        android:scrollbars="none">
+        android:layout_below="@+id/relativeLayout_actionBar">
 
         <RelativeLayout
-            android:id="@+id/relativeLa"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            >
 
-            <RelativeLayout
-                android:id="@+id/RelativeLayout12"
-                android:layout_width="match_parent"
-                android:layout_height="280px"
-                android:layout_centerHorizontal="true">
-
-                <android.support.v4.view.ViewPager
-                    android:id="@+id/viewPager"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </android.support.v4.view.ViewPager>
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="bottom">
-
-                    <com.chengchikeji_scrollview.www.PagerIndicator
-                        android:id="@+id/pagerIndicator"
-                        android:layout_width="wrap_content"
-                        android:layout_height="30dp"
-                        android:layout_alignParentBottom="true"
-                        android:layout_centerHorizontal="true" />
-                </RelativeLayout>
-
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/RelativeLayou"
-                android:layout_width="match_parent"
-                android:layout_height="270px"
-                android:layout_below="@+id/RelativeLayout12"
-                android:layout_centerHorizontal="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0.6"></LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/linearL_FenLei"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:id="@+id/imageView2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="20px"
-                            android:layout_marginTop="30px"
-                            android:src="@drawable/fenlei" />
-
-                        <TextView
-                            android:id="@+id/textView2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginBottom="30px"
-                            android:text="分类"
-                            android:textSize="28px" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"></LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:id="@+id/imageView3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="20px"
-                            android:layout_marginTop="30px"
-                            android:src="@drawable/shiyuan" />
-
-                        <TextView
-                            android:id="@+id/textView3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginBottom="30px"
-                            android:text="10元专区"
-                            android:textSize="28px" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"></LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:id="@+id/imageView4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="20px"
-                            android:layout_marginTop="30px"
-                            android:src="@drawable/changjian" />
-
-                        <TextView
-                            android:id="@+id/textView4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginBottom="30px"
-                            android:text="常见问题"
-                            android:textSize="28px" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0.6">
-
-                    </LinearLayout>
-                </LinearLayout>
-            </RelativeLayout>
-
-            <TextView
-                android:id="@+id/fengexian1"
-                android:layout_width="match_parent"
-                android:layout_height="1px"
-                android:layout_below="@+id/RelativeLayou"
-                android:background="#E6E6E6" />
-
-            <RelativeLayout
-                android:id="@+id/RelativeLayout_xiaoxi"
-                android:layout_width="match_parent"
-                android:layout_height="90px"
-                android:layout_below="@+id/fengexian1">
-
-
-                <com.chengchikeji_scrollview.www.HomePageNewsRolling
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/view"
-                    android:layout_centerVertical="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/relaLine"
-                android:layout_width="match_parent"
-                android:layout_height="20px"
-                android:layout_below="@+id/RelativeLayout_xiaoxi"
-                android:background="#F2F2F2">
-
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="match_parent"
-                    android:layout_height="1px"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:background="#E6E6E6" />
-
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="1px"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
-                    android:background="#E6E6E6" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/relaModle"
-                android:layout_width="match_parent"
-                android:layout_height="90px"
-                android:layout_below="@+id/relaLine">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="1px"
-                    android:id="@+id/textView8"
-                    android:background="#E6E6E6"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
-
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_centerVertical="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true">
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:text="人气"
-                        android:gravity="center"
-                        android:id="@+id/homePagerPopularity"
-                        android:textSize="32px"
-                        android:textColor="#ED483A"
-                        android:layout_weight="1"/>
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:text="最新"
-                        android:id="@+id/homePagerNewest"
-                        android:gravity="center"
-                        android:textSize="32px"
-                        android:textColor="#666666"
-                        android:layout_weight="1"/>
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:text="进度"
-                        android:id="@+id/homePagerSpeed"
-                        android:gravity="center"
-                        android:textSize="32px"
-                        android:textColor="#666666"
-                        android:layout_weight="1"/>
-
-                    <RelativeLayout
-                        android:id="@+id/homePagerTotal"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:layout_weight="1">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:text="总需人数"
-                            android:textSize="32px"
-                            android:gravity="center"
-                            android:textColor="#666666"
-                            android:id="@+id/textView79"
-                            />
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/homePagerTotalImage"
-                            android:src="@drawable/total_demand"
-                            android:layout_centerVertical="true"
-                            android:layout_marginLeft="10px"
-                            android:layout_marginRight="30px"
-                            android:layout_toRightOf="@+id/textView79"
-                            android:layout_toEndOf="@+id/textView79" />
-                    </RelativeLayout>
-
-
-                </LinearLayout>
-            </RelativeLayout>
-
-            <com.chengchikeji_scrollview.www.MyGridView
+            <com.chengchikeji_scrollview.www.MyScrollView
+                android:id="@+id/ScrollView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/view2"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_below="@+id/relaModle"
-                android:numColumns="2"/>
 
+                android:fillViewport="false"
+                android:scrollbars="none">
+
+                <RelativeLayout
+                    android:id="@+id/relativeLa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout12"
+                        android:layout_width="match_parent"
+                        android:layout_height="280px"
+                        android:layout_centerHorizontal="true">
+
+                        <android.support.v4.view.ViewPager
+                            android:id="@+id/viewPager"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        </android.support.v4.view.ViewPager>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="bottom">
+
+                            <com.chengchikeji_scrollview.www.PagerIndicator
+                                android:id="@+id/pagerIndicator"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayou"
+                        android:layout_width="match_parent"
+                        android:layout_height="270px"
+                        android:layout_below="@+id/RelativeLayout12"
+                        android:layout_centerHorizontal="true"
+                        android:background="#FFFFFF">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.6"></LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/linearL_FenLei"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/imageView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20px"
+                                    android:layout_marginTop="30px"
+                                    android:src="@drawable/fenlei" />
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginBottom="30px"
+                                    android:text="分类"
+                                    android:textSize="28px" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/imageView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20px"
+                                    android:layout_marginTop="30px"
+                                    android:src="@drawable/shiyuan" />
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginBottom="30px"
+                                    android:text="10元专区"
+                                    android:textSize="28px" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/imageView4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20px"
+                                    android:layout_marginTop="30px"
+                                    android:src="@drawable/changjian" />
+
+                                <TextView
+                                    android:id="@+id/textView4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginBottom="30px"
+                                    android:text="常见问题"
+                                    android:textSize="28px" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.6">
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/fengexian1"
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_below="@+id/RelativeLayou"
+                        android:background="#E6E6E6" />
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout_xiaoxi"
+                        android:layout_width="match_parent"
+                        android:layout_height="90px"
+                        android:layout_below="@+id/fengexian1"
+                        android:background="#FFFFFF">
+
+
+                        <com.chengchikeji_scrollview.www.HomePageNewsRolling
+                            android:id="@+id/view"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:background="#FFFFFF"/>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relaLine"
+                        android:layout_width="match_parent"
+                        android:layout_height="20px"
+                        android:layout_below="@+id/RelativeLayout_xiaoxi"
+                        android:background="#F2F2F2">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:background="#E6E6E6" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:background="#E6E6E6" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relaModle"
+                        android:layout_width="match_parent"
+                        android:layout_height="90px"
+                        android:layout_below="@+id/relaLine"
+                        android:background="#FFFFFF">
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:background="#E6E6E6" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/homePagerPopularity"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="人气"
+                                android:textColor="#ED483A"
+                                android:textSize="32px" />
+
+                            <TextView
+                                android:id="@+id/homePagerNewest"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="最新"
+                                android:textColor="#666666"
+                                android:textSize="32px" />
+
+                            <TextView
+                                android:id="@+id/homePagerSpeed"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="进度"
+                                android:textColor="#666666"
+                                android:textSize="32px" />
+
+                            <RelativeLayout
+                                android:id="@+id/homePagerTotal"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/textView79"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="总需人数"
+                                    android:textColor="#666666"
+                                    android:textSize="32px" />
+
+                                <ImageView
+                                    android:id="@+id/homePagerTotalImage"
+                                    android:layout_width="46px"
+                                    android:layout_height="46px"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginLeft="10px"
+                                    android:layout_marginRight="30px"
+                                    android:layout_toEndOf="@+id/textView79"
+                                    android:layout_toRightOf="@+id/textView79"
+                                    android:src="@drawable/total_demand" />
+                            </RelativeLayout>
+
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <com.chengchikeji_scrollview.www.MyGridView
+                        android:id="@+id/view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/relaModle"
+                        android:numColumns="2" />
+
+                </RelativeLayout>
+            </com.chengchikeji_scrollview.www.MyScrollView>
         </RelativeLayout>
-    </ScrollView>
+        <RelativeLayout
+            android:id="@+id/relativeLayout_suspension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
 
-
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/homepager_suspension"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </FrameLayout>
 
 </RelativeLayout>

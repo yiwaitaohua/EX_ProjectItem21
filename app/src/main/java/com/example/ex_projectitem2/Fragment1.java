@@ -1,7 +1,9 @@
 package com.example.ex_projectitem2;
 
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -15,10 +17,12 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.chengchikeji_activity.www.ClassificationActivity;
 import com.chengchikeji_fragment.www.HomePagerBannerFragment;
+import com.chengchikeji_scrollview.www.MyScrollView;
 import com.chengchikeji_scrollview.www.PagerIndicator;
 
 import org.w3c.dom.Text;
@@ -26,7 +30,7 @@ import org.w3c.dom.Text;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Fragment1 extends Fragment implements View.OnClickListener {
+public class Fragment1 extends Fragment implements View.OnClickListener, MyScrollView.OnScrollListener {
 
     private ViewPager mViewPager;
     private FragmentManager fm;
@@ -37,6 +41,8 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
     private TextView homePagerPopularity;
     private TextView homePagerSpeed;
     private RelativeLayout homePagerTotal;
+    private RelativeLayout relativeLayout_suspension;
+    private MyScrollView mScrollView;
 
 
     public Fragment1() {
@@ -71,10 +77,14 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
         homePagerNewest = (TextView) inflate.findViewById(R.id.homePagerNewest);
         homePagerSpeed = (TextView) inflate.findViewById(R.id.homePagerSpeed);
         homePagerTotal = (RelativeLayout) inflate.findViewById(R.id.homePagerTotal);
+        relativeLayout_suspension = (RelativeLayout) inflate.findViewById(R.id.relativeLayout_suspension);
         homePagerPopularity.setOnClickListener(this);
         homePagerNewest.setOnClickListener(this);
         homePagerSpeed.setOnClickListener(this);
         homePagerTotal.setOnClickListener(this);
+        mScrollView = (MyScrollView) inflate.findViewById(R.id.ScrollView);
+        mScrollView.setOnScrollListener(this);
+
     }
 
     private void initIndicator() {
@@ -195,6 +205,23 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
         }
     }
 
+    @Override
+    public void onScroll(int scrollY) {
+        if(scrollY>=660){
+            relativeLayout_suspension.setVisibility(View.VISIBLE);
+        }else{
+            relativeLayout_suspension.setVisibility(View.GONE);
+        }
+    }
+
+//    @Override
+//    public void onScrollChange(View v, int scrollX, int scrollY, int oldScrollX, int oldScrollY) {
+////        Log.e("scrollX", "scrollX:"+scrollX);
+////        Log.e("scrollY", "scrollY:"+scrollY);
+////        Log.e("oldScrollX", "oldScrollX:"+oldScrollX);
+////        Log.e("oldScrollY", "oldScrollY:"+oldScrollY);
+//    }
+
 
     class MyHomePagerAdpter extends BaseAdapter {
 
@@ -206,7 +233,7 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
 
         @Override
         public int getCount() {
-            return 1;
+            return 7;
         }
 
         @Override
