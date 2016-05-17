@@ -13,6 +13,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.chengchikeji_activity.www.GeRenShezhiActivity;
+import com.chengchikeji_activity.www.LoginActivity;
+import com.chengchikeji_activity.www.RegisterActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -45,10 +47,17 @@ public class Fragment4 extends Fragment implements View.OnClickListener {
     private void initID() {
         
         initClick();
+        initControl();
+    }
+
+    private void initControl() {
+
     }
 
     private void initClick() {
         inflate.findViewById(R.id.relative_GeRenSetting).setOnClickListener(this);
+        inflate.findViewById(R.id.personalCenterLogin).setOnClickListener(this);
+        inflate.findViewById(R.id.personalCenterRegister).setOnClickListener(this);
     }
 
 
@@ -92,6 +101,14 @@ public class Fragment4 extends Fragment implements View.OnClickListener {
             case R.id.relative_GeRenSetting:
                 Intent intent = new Intent(getContext(), GeRenShezhiActivity.class);
                 startActivity(intent);
+                break;
+            case R.id.personalCenterLogin:
+                Intent intent1 = new Intent(getContext(), LoginActivity.class);
+                startActivity(intent1);
+                break;
+            case R.id.personalCenterRegister:
+                Intent intent2 = new Intent(getContext(), RegisterActivity.class);
+                startActivity(intent2);
                 break;
         }
     }

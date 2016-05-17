@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="90px"
+    android:background="#dddddd"
+    android:orientation="horizontal" >
+
+        <!-- xmlns:android="http://schemas.android.com/apk/res/android" -->
+    <ImageView
+        android:layout_width="46px"
+        android:layout_height="46px"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dip"
+        android:gravity="center"
+        android:layout_marginLeft="30px"
+        android:layout_marginEnd="30px"
+        android:src="@drawable/xiaoxi" />
+
+    <ViewFlipper
+        android:id="@+id/flipper_scrollTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_margin="0.0dip"
+        android:layout_weight="1.0"
+        android:flipInterval="2000"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/scrollTile_hd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity=""
+            android:textSize="32px"
+            android:text="消息来了" />
+
+        <!-- 
+        <TextView
+            android:id="@+id/scrollTile_hm"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="222222222222222222222" />
+        <TextView
+            android:id="@+id/scrollTile_hm"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="33333333333333333" /> -->
+    </ViewFlipper>
+
+</LinearLayout>

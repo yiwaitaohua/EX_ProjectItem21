@@ -148,7 +148,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="立即注册"
-        android:id="@+id/textView47"
+        android:id="@+id/Login_register"
         android:textSize="32px"
         android:textColor="#15A3E3"
         android:layout_marginTop="60px"
@@ -165,8 +165,8 @@
         android:textColor="#888888"
         android:layout_marginTop="60px"
         android:layout_below="@+id/textView45"
-        android:layout_toLeftOf="@+id/textView47"
-        android:layout_toStartOf="@+id/textView47" />
+        android:layout_toLeftOf="@+id/Login_register"
+        android:layout_toStartOf="@+id/Login_register" />
 
     <LinearLayout
         android:orientation="horizontal"

@@ -11,7 +11,7 @@
         >
 
         <ImageView
-            android:id="@+id/imageView10"
+            android:id="@+id/homePagerPhoneImage"
             android:layout_width="match_parent"
             android:layout_height="276px"
             android:layout_alignParentTop="true"
@@ -19,22 +19,22 @@
             android:src="@drawable/ic_launcher" />
 
         <ImageView
-            android:id="@+id/imageView11"
+            android:id="@+id/homePagerImageTenYuan"
             android:layout_width="66px"
             android:layout_height="70px"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="20px"
-            android:src="@drawable/ic_launcher" />
+            android:src="@drawable/ten_yuan_area" />
 
         <TextView
-            android:id="@+id/textView25"
+            android:id="@+id/homePagerPhoneName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/imageView11"
-            android:layout_alignStart="@+id/imageView11"
-            android:layout_below="@+id/imageView10"
+            android:layout_alignLeft="@+id/homePagerImageTenYuan"
+            android:layout_alignStart="@+id/homePagerImageTenYuan"
+            android:layout_below="@+id/homePagerPhoneImage"
             android:layout_marginLeft="24px"
             android:layout_marginRight="24px"
             android:text="New Text"
@@ -45,9 +45,9 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/imageView11"
-            android:layout_alignStart="@+id/imageView11"
-            android:layout_below="@+id/textView25"
+            android:layout_alignLeft="@+id/homePagerImageTenYuan"
+            android:layout_alignStart="@+id/homePagerImageTenYuan"
+            android:layout_below="@+id/homePagerPhoneName"
             android:layout_marginLeft="24px"
             android:layout_marginTop="30px"
             android:text="开奖进度"
@@ -55,10 +55,10 @@
             android:textSize="24px" />
 
         <TextView
-            android:id="@+id/textView27"
+            android:id="@+id/homePagerPercentage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/progressBar"
+            android:layout_above="@+id/homePagerPBar"
             android:layout_toEndOf="@+id/textView26"
             android:layout_toRightOf="@+id/textView26"
             android:text="0%"
@@ -66,12 +66,12 @@
             android:textSize="24px" />
 
         <TextView
-            android:id="@+id/textView28"
+            android:id="@+id/homePagerJoinIn"
             android:layout_width="120px"
             android:layout_height="50px"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_alignTop="@+id/textView27"
+            android:layout_alignTop="@+id/homePagerPercentage"
             android:layout_marginEnd="20px"
             android:layout_marginRight="20px"
             android:background="@drawable/qingd_join_list"
@@ -81,7 +81,7 @@
             android:textSize="24px" />
 
         <ProgressBar
-            android:id="@+id/progressBar"
+            android:id="@+id/homePagerPBar"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="wrap_content"
             android:layout_height="10px"
@@ -91,8 +91,8 @@
             android:layout_below="@+id/textView26"
             android:layout_marginRight="20px"
             android:layout_marginTop="10px"
-            android:layout_toLeftOf="@+id/textView28"
-            android:layout_toStartOf="@+id/textView28"
+            android:layout_toLeftOf="@+id/homePagerJoinIn"
+            android:layout_toStartOf="@+id/homePagerJoinIn"
             android:max="100"
             android:progress="20"
             android:progressDrawable="@drawable/progressbar" />

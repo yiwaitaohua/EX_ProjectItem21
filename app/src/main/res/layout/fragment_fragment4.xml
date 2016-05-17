@@ -65,17 +65,46 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="200px">
+                android:layout_height="200px"
+                >
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <TextView
+                        android:layout_width="200px"
+                        android:layout_height="80px"
+                        android:text="登录"
+                        android:id="@+id/personalCenterLogin"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginStart="35dp"
+                        android:gravity="center"
+                        android:textSize="32px"
+                        android:background="@drawable/textview_style_wode_zhuce"/>
+
+                    <TextView
+                        android:layout_width="200px"
+                        android:layout_height="80px"
+                        android:text="注册"
+                        android:gravity="center"
+                        android:textSize="32px"
+                        android:id="@+id/personalCenterRegister"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="39dp"
+                        android:layout_marginEnd="39dp"
+                        android:background="@drawable/textview_style_wode_dengru"/>
                 </RelativeLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:visibility="gone">
 
                     <ImageView
                         android:id="@+id/imageView6"
@@ -144,7 +173,7 @@
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
-                android:layout_height="1px"
+                android:layout_height="2px"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"

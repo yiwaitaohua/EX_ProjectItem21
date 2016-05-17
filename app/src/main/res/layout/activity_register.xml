@@ -15,6 +15,7 @@
         android:id="@+id/relativeLayout15">
 
         <RelativeLayout
+            android:id="@+id/back"
             android:layout_width="80px"
             android:layout_height="match_parent"
             android:layout_centerVertical="true"

@@ -1,5 +1,6 @@
 package com.example.ex_projectitem2;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -14,10 +15,13 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.chengchikeji_activity.www.ClassificationActivity;
 import com.chengchikeji_fragment.www.HomePagerBannerFragment;
 import com.chengchikeji_scrollview.www.PagerIndicator;
+
+import org.w3c.dom.Text;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -29,6 +33,10 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
     private boolean isUserDrag;
     private boolean needAuto = true;
     private PagerIndicator pagerIndicator;
+    private TextView homePagerNewest;
+    private TextView homePagerPopularity;
+    private TextView homePagerSpeed;
+    private RelativeLayout homePagerTotal;
 
 
     public Fragment1() {
@@ -59,6 +67,14 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
         GridView view2 = (GridView) inflate.findViewById(R.id.view2);
         MyHomePagerAdpter myHomePagerAdpter = new MyHomePagerAdpter();
         view2.setAdapter(myHomePagerAdpter);
+        homePagerPopularity = (TextView) inflate.findViewById(R.id.homePagerPopularity);
+        homePagerNewest = (TextView) inflate.findViewById(R.id.homePagerNewest);
+        homePagerSpeed = (TextView) inflate.findViewById(R.id.homePagerSpeed);
+        homePagerTotal = (RelativeLayout) inflate.findViewById(R.id.homePagerTotal);
+        homePagerPopularity.setOnClickListener(this);
+        homePagerNewest.setOnClickListener(this);
+        homePagerSpeed.setOnClickListener(this);
+        homePagerTotal.setOnClickListener(this);
     }
 
     private void initIndicator() {
@@ -138,9 +154,8 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
     @Override
     public void onResume() {
         super.onResume();
-//        needAuto = true;
-//        isUserDrag = false;
-        Log.e("onResume", "onResume");
+        needAuto = true;
+        isUserDrag = false;
 
     }
 
@@ -148,8 +163,7 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
     public void onStop() {
         super.onStop();
         needAuto = false;
-//        isUserDrag = true;
-        Log.e("onStop", "onStop");
+        isUserDrag = true;
     }
 
     private void initClick() {
@@ -168,11 +182,21 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
 //                Intent intent1 = new Intent();
 //                getContext().startActivity(intent1);
                 break;
+            case R.id.homePagerPopularity:
+
+                break;
+            case R.id.homePagerNewest:
+                break;
+            case R.id.homePagerSpeed:
+                break;
+            case R.id.homePagerTotal:
+                break;
 
         }
     }
 
-    class MyHomePagerAdpter extends BaseAdapter{
+
+    class MyHomePagerAdpter extends BaseAdapter {
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
