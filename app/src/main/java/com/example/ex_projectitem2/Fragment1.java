@@ -1,31 +1,23 @@
 package com.example.ex_projectitem2;
 
-import android.annotation.TargetApi;
-import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.chengchikeji_activity.www.ClassificationActivity;
 import com.chengchikeji_fragment.www.HomePagerBannerFragment;
 import com.chengchikeji_scrollview.www.MyScrollView;
 import com.chengchikeji_scrollview.www.PagerIndicator;
-
-import org.w3c.dom.Text;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -84,6 +76,8 @@ public class Fragment1 extends Fragment implements View.OnClickListener, MyScrol
         homePagerTotal.setOnClickListener(this);
         mScrollView = (MyScrollView) inflate.findViewById(R.id.ScrollView);
         mScrollView.setOnScrollListener(this);
+        //回到顶部
+        mScrollView.smoothScrollTo(0,0);
 
     }
 
@@ -147,6 +141,7 @@ public class Fragment1 extends Fragment implements View.OnClickListener, MyScrol
             }
         });
     }
+
 
     private void autoBanner() {
         mViewPager.postDelayed(new Runnable() {

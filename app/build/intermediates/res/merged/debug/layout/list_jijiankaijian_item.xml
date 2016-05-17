@@ -91,7 +91,7 @@
             android:layout_alignBottom="@+id/tv_kaijiang"
             android:layout_marginLeft="40px"
             android:layout_toRightOf="@+id/tv_kaijiang"
-            android:text="09:30:39"
+            android:text="00:00:00"
             android:textColor="#ED483A"
             android:textSize="60px" />
 

@@ -72,10 +72,10 @@ public class Fragment2 extends Fragment {
 			 TextView tv_kaijiang = (TextView) inflate3.findViewById(R.id.tv_kaijiang);
 			 TextView tv_shijian = (TextView) inflate3.findViewById(R.id.tv_shijian);
 			 mTextView.setVisibility(View.VISIBLE);
-			 tv_kaijiang.setText("获奖者：");
+			 tv_kaijiang.setText("鑾峰鑰咃細");
 			 tv_kaijiang.setTextColor(Color.parseColor("#AAAAAA"));
 			 tv_shijian.setTextSize(15);
-			 tv_shijian.setText("用户842731");
+			 tv_shijian.setText("鐢ㄦ埛000000");
 			 
 			return inflate3;
 		}

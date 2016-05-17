@@ -16,12 +16,12 @@
         "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\activity_classification.xml"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ge_ren_shezhi.xml",
-        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\activity_ge_ren_shezhi.xml"
-    },
-    {
         "merged": "E:\\AndroidStudioProjects\\EX_0510\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fragment1.xml",
         "source": "E:\\AndroidStudioProjects\\EX_0510\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\fragment_fragment1.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ge_ren_shezhi.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\activity_ge_ren_shezhi.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fragment2.xml",
