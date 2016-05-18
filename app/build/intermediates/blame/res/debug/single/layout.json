@@ -168,6 +168,10 @@
         "source": "E:\\AndroidStudioProjects\\EX_0510\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\fengeline.xml"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\EX_05170\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_05170\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\pull_to_refresh.xml"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\EX_0510\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fragment4.xml",
         "source": "E:\\AndroidStudioProjects\\EX_0510\\EX_ProjectItem21\\app\\src\\main\\res\\layout\\fragment_fragment4.xml"
     },
