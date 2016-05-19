@@ -33,6 +33,7 @@
         <activity android:name="com.chengchikeji_activity.www.LoginActivity" />
         <activity android:name="com.chengchikeji_activity.www.RegisterActivity" />
         <activity android:name="com.chengchikeji_activity.www.Seach_Home_Page_Activity" />
+        <activity android:name="com.chengchikeji_activity.www.TestMainActivity" />
     </application>
 
 </manifest>

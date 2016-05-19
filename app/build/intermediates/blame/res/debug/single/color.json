@@ -1,46 +1,14 @@
 [
     {
-        "merged": "E:\\AndroidStudioProjects\\EX_05170\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\color.xml",
-        "source": "E:\\AndroidStudioProjects\\EX_05170\\EX_ProjectItem21\\app\\src\\main\\res\\color\\color.xml"
+        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\color_pressed_home_page.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\color\\color_pressed_home_page.xml"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_light.xml",
-        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\color\\common_signin_btn_text_light.xml"
+        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\color_selected_home_page.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\color\\color_selected_home_page.xml"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\EX_05170\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\color_pressed_home_page.xml",
-        "source": "E:\\AndroidStudioProjects\\EX_05170\\EX_ProjectItem21\\app\\src\\main\\res\\color\\color_pressed_home_page.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\color.xml",
-        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\color\\color.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\EX_0510\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\color_selected_home_page.xml",
-        "source": "E:\\AndroidStudioProjects\\EX_0510\\EX_ProjectItem21\\app\\src\\main\\res\\color\\color_selected_home_page.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\EX_0510\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\color.xml",
-        "source": "E:\\AndroidStudioProjects\\EX_0510\\EX_ProjectItem21\\app\\src\\main\\res\\color\\color.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\color_pressed_home_page.xml",
-        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\color\\color_pressed_home_page.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\EX_05170\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\color_selected_home_page.xml",
-        "source": "E:\\AndroidStudioProjects\\EX_05170\\EX_ProjectItem21\\app\\src\\main\\res\\color\\color_selected_home_page.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_dark.xml",
-        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\color\\common_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\color_selected_home_page.xml",
-        "source": "E:\\AndroidStudioProjects\\EX_ProjectItem21\\EX_ProjectItem21\\app\\src\\main\\res\\color\\color_selected_home_page.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\EX_0510\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\color_pressed_home_page.xml",
-        "source": "E:\\AndroidStudioProjects\\EX_0510\\EX_ProjectItem21\\app\\src\\main\\res\\color\\color_pressed_home_page.xml"
+        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\color\\color.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\color\\color.xml"
     }
 ]

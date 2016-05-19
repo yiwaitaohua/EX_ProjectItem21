@@ -2,6 +2,7 @@ package com.example.ex_projectitem2;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -16,13 +17,15 @@ import android.widget.TextView;
 
 import com.chengchikeji_activity.www.ClassificationActivity;
 import com.chengchikeji_fragment.www.HomePagerBannerFragment;
+import com.chengchikeji_pulldown.PullDownElasticImp;
+import com.chengchikeji_pulldown.PullDownScrollView;
 import com.chengchikeji_scrollview.www.MyScrollView;
 import com.chengchikeji_scrollview.www.PagerIndicator;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Fragment1 extends Fragment implements View.OnClickListener, MyScrollView.OnScrollListener {
+public class Fragment1 extends Fragment implements View.OnClickListener, MyScrollView.OnScrollListener, PullDownScrollView.RefreshListener {
 
     private ViewPager mViewPager;
     private FragmentManager fm;
@@ -35,6 +38,7 @@ public class Fragment1 extends Fragment implements View.OnClickListener, MyScrol
     private RelativeLayout homePagerTotal;
     private RelativeLayout relativeLayout_suspension;
     private MyScrollView mScrollView;
+    private PullDownScrollView mPullDownScrollView;
 
 
     public Fragment1() {
@@ -48,17 +52,24 @@ public class Fragment1 extends Fragment implements View.OnClickListener, MyScrol
         // Inflate the layout for this fragment
         if (inflate == null) {
             inflate = inflater.inflate(R.layout.fragment_fragment1, container, false);
+            initUI();
         }
-        initUI();
         return inflate;
     }
 
     private void initUI() {
+        initPullDown();
         /*ViewPager*/
         initBanner();
         initIndicator();
         initClick();
         initControl();
+    }
+
+    private void initPullDown() {
+        mPullDownScrollView = (PullDownScrollView) inflate.findViewById(R.id.homePagerPullDown);
+        mPullDownScrollView.setRefreshListener(this);
+        mPullDownScrollView.setPullDownElastic(new PullDownElasticImp(getContext()));
     }
 
     private void initControl() {
@@ -200,6 +211,10 @@ public class Fragment1 extends Fragment implements View.OnClickListener, MyScrol
         }
     }
 
+    /**
+     * 判断ScrollView是否滑动悬停
+     * @param scrollY
+     */
     @Override
     public void onScroll(int scrollY) {
         if(scrollY>=660){
@@ -207,6 +222,22 @@ public class Fragment1 extends Fragment implements View.OnClickListener, MyScrol
         }else{
             relativeLayout_suspension.setVisibility(View.GONE);
         }
+    }
+
+    /**
+     * 重写下拉刷新
+     * @param view
+     */
+    @Override
+    public void onRefresh(PullDownScrollView view) {
+        new Handler().postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                // TODO Auto-generated method stub
+                mPullDownScrollView.finishRefresh("上次刷新时间:12:23");
+            }
+        }, 2000);
     }
 
 //    @Override

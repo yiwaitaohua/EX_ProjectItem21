@@ -1,5 +1,0 @@
-CHANGED,E:\AndroidStudioProjects\EX_ProjectItem21\EX_ProjectItem21\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,E:\AndroidStudioProjects\EX_ProjectItem21\EX_ProjectItem21\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\ex_projectitem2\R$string$override.class
-CHANGED,E:\AndroidStudioProjects\EX_ProjectItem21\EX_ProjectItem21\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\ex_projectitem2\R$style$override.class
-CHANGED,E:\AndroidStudioProjects\EX_ProjectItem21\EX_ProjectItem21\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\ex_projectitem2\R$id$override.class
-CHANGED,E:\AndroidStudioProjects\EX_ProjectItem21\EX_ProjectItem21\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\ex_projectitem2\R$layout$override.class

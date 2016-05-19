@@ -20,4 +20,6 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:23.3.0'
+    compile project(':lib_yuchen0303')
+    compile project(':lib_pulltorefresh')
 }
