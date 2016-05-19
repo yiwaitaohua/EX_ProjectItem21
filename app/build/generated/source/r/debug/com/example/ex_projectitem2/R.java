@@ -140,10 +140,12 @@ containing a value of this type.
         public static final int wode=0x7f020049;
         public static final int wode_click=0x7f02004a;
         public static final int xiaoxi=0x7f02004b;
-        public static final int zhenf=0x7f02004c;
-        public static final int zonxurenshu=0x7f02004d;
-        public static final int zonxurenshu_down=0x7f02004e;
-        public static final int zonxurenshu_up=0x7f02004f;
+        public static final int xings=0x7f02004c;
+        public static final int xingx=0x7f02004d;
+        public static final int zhenf=0x7f02004e;
+        public static final int zonxurenshu=0x7f02004f;
+        public static final int zonxurenshu_down=0x7f020050;
+        public static final int zonxurenshu_up=0x7f020051;
     }
     public static final class id {
         public static final int Login_register=0x7f090028;

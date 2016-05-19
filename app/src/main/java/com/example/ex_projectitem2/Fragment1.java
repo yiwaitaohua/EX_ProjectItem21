@@ -64,6 +64,10 @@ public class Fragment1 extends Fragment implements View.OnClickListener, MyScrol
         initIndicator();
         initClick();
         initControl();
+        initData();
+    }
+
+    private void initData() {
     }
 
     private void initPullDown() {

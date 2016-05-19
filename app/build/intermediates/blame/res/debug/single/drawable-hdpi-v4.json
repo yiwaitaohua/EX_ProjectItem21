@@ -36,6 +36,10 @@
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\up.png"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xings.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\xings.png"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
@@ -114,6 +118,10 @@
     {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\under_the_total_demand.png",
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\under_the_total_demand.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xingx.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\xingx.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\head_portrait.png",
