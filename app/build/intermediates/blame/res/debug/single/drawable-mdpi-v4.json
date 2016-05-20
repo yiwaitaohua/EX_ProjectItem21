@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\password_one.png",
-        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-mdpi\\password_one.png"
-    },
-    {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\confirm_button.png",
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-mdpi\\confirm_button.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\password_one.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-mdpi\\password_one.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\fenlei_ten_yuan_area.png",

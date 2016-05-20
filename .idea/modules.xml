@@ -4,8 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EX_ProjectItem21.iml" filepath="$PROJECT_DIR$/EX_ProjectItem21.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib_pulltorefresh/lib_pulltorefresh.iml" filepath="$PROJECT_DIR$/lib_pulltorefresh/lib_pulltorefresh.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib_yuchen0303/lib_yuchen0303.iml" filepath="$PROJECT_DIR$/lib_yuchen0303/lib_yuchen0303.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />
     </modules>
   </component>
 </project>

@@ -12,6 +12,33 @@ public class Datum {
     private String ADDTIME;
     private String ENDTIME;
 
+    public Datum(String ID, String AID, String TITLE, String TYPE, String CONTENT, String URL, String CHECKED, String ADDTIME, String ENDTIME) {
+        this.ID = ID;
+        this.AID = AID;
+        this.TITLE = TITLE;
+        this.TYPE = TYPE;
+        this.CONTENT = CONTENT;
+        this.URL = URL;
+        this.CHECKED = CHECKED;
+        this.ADDTIME = ADDTIME;
+        this.ENDTIME = ENDTIME;
+    }
+
+    @Override
+    public String toString() {
+        return "Datum{" +
+                "ID='" + ID + '\'' +
+                ", AID='" + AID + '\'' +
+                ", TITLE='" + TITLE + '\'' +
+                ", TYPE='" + TYPE + '\'' +
+                ", CONTENT='" + CONTENT + '\'' +
+                ", URL='" + URL + '\'' +
+                ", CHECKED='" + CHECKED + '\'' +
+                ", ADDTIME='" + ADDTIME + '\'' +
+                ", ENDTIME='" + ENDTIME + '\'' +
+                '}';
+    }
+
     /**
      * 
      * @return

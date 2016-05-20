@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,12 +16,24 @@ import android.widget.GridView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.chengchikeji_activity.www.ClassificationActivity;
 import com.chengchikeji_fragment.www.HomePagerBannerFragment;
 import com.chengchikeji_pulldown.PullDownElasticImp;
 import com.chengchikeji_pulldown.PullDownScrollView;
 import com.chengchikeji_scrollview.www.MyScrollView;
 import com.chengchikeji_scrollview.www.PagerIndicator;
+import com.chengchikeji_sqldata.Datum;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -39,6 +52,7 @@ public class Fragment1 extends Fragment implements View.OnClickListener, MyScrol
     private RelativeLayout relativeLayout_suspension;
     private MyScrollView mScrollView;
     private PullDownScrollView mPullDownScrollView;
+    private ArrayList<Datum> bannerDate = new ArrayList<Datum>();
 
 
     public Fragment1() {
@@ -65,9 +79,54 @@ public class Fragment1 extends Fragment implements View.OnClickListener, MyScrol
         initClick();
         initControl();
         initData();
+
     }
 
     private void initData() {
+        RequestQueue requestQueue = Volley.newRequestQueue(getActivity());
+        StringRequest stringRequest = new StringRequest("http://yydb.willfun.com.cn/module/yiyuangou/api/home_img.php",
+                new Response.Listener<String>() {
+
+                    @Override
+                    public void onResponse(String s) {
+//                        Log.e("onResponse","s:"+s);
+                        try {
+                            JSONObject jsonObject = new JSONObject(s);
+                            String host = jsonObject.getString("host");
+                            String message = jsonObject.getString("message");
+                            JSONArray jsonArray = jsonObject.getJSONArray("data");
+                            for (int i = 0;i<jsonArray.length();i++){
+                                JSONObject jsonObject1 = jsonArray.getJSONObject(i);
+                                String id = jsonObject1.getString("ID");
+                                String aid = jsonObject1.getString("AID");
+                                String title = jsonObject1.getString("TITLE");
+                                String type = jsonObject1.getString("TYPE");
+                                String content = jsonObject1.getString("CONTENT");
+                                String url = jsonObject1.getString("URL");
+                                String checked = jsonObject1.getString("CHECKED");
+                                String addtime = jsonObject1.getString("ADDTIME");
+                                String endtime = jsonObject1.getString("ENDTIME");
+                                Log.e("title","title:"+title);
+                                Log.e("content","content:"+content);
+                                bannerDate.add(new Datum(id,aid,title,type,content,url,checked,addtime,endtime));
+                            }
+                            Log.e("host","host:"+host);
+                            Log.e("message","message:"+message);
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+
+                }, new Response.ErrorListener() {
+
+            @Override
+            public void onErrorResponse(VolleyError volleyError) {
+                Log.e(volleyError.getMessage(),"volleyError:"+volleyError);
+            }
+        });
+
+        requestQueue.add(stringRequest);
+
     }
 
     private void initPullDown() {
@@ -92,7 +151,7 @@ public class Fragment1 extends Fragment implements View.OnClickListener, MyScrol
         mScrollView = (MyScrollView) inflate.findViewById(R.id.ScrollView);
         mScrollView.setOnScrollListener(this);
         //回到顶部
-        mScrollView.smoothScrollTo(0,0);
+        mScrollView.smoothScrollTo(0, 0);
 
     }
 
@@ -217,19 +276,21 @@ public class Fragment1 extends Fragment implements View.OnClickListener, MyScrol
 
     /**
      * 判断ScrollView是否滑动悬停
+     *
      * @param scrollY
      */
     @Override
     public void onScroll(int scrollY) {
-        if(scrollY>=660){
+        if (scrollY >= 660) {
             relativeLayout_suspension.setVisibility(View.VISIBLE);
-        }else{
+        } else {
             relativeLayout_suspension.setVisibility(View.GONE);
         }
     }
 
     /**
      * 重写下拉刷新
+     *
      * @param view
      */
     @Override

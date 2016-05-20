@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":lib_pulltorefresh" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="EX_ProjectItem21" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":volley" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="EX_ProjectItem21" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
-        <option name="GRADLE_PROJECT_PATH" value=":lib_pulltorefresh" />
+        <option name="GRADLE_PROJECT_PATH" value=":volley" />
       </configuration>
     </facet>
     <facet type="java-gradle" name="Java-Gradle">
@@ -21,6 +21,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="lib_pulltorefresh.lib_pulltorefresh" level="project" />
+    <orderEntry type="library" exported="" name="volley.volley" level="project" />
   </component>
 </module>
