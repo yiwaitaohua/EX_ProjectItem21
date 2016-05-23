@@ -1,5 +1,121 @@
 [
     {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\total_demand.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\total_demand.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goicon.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\goicon.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\head_portrait.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\head_portrait.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\up.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\up.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\refresh_arrow_up.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\refresh_arrow_up.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\under_the_total_demand.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\under_the_total_demand.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\refresh_arrow_down.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\refresh_arrow_down.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_bg.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\app_bg.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\recharge.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\recharge.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\recharge.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\recharge.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shiyuan.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\shiyuan.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fenlei.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\fenlei.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wode_click.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\wode_click.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\kaijian.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\kaijian.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zonxurenshu_up.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\zonxurenshu_up.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sousuo.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\sousuo.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zonxurenshu.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\zonxurenshu.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wode.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\wode.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sousuo.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\sousuo.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zonxurenshu_down.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\zonxurenshu_down.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zhenf.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\zhenf.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\qingdan.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\qingdan.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shouye_click.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\shouye_click.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\kaijian.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\kaijian.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\head_portrait.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\head_portrait.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wode_click.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\wode_click.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\arrow.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wode.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\wode.png"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\refresh_arrow_up.png",
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\refresh_arrow_up.png"
     },
@@ -8,8 +124,20 @@
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\zonxurenshu_down.png"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xiaoxi.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\xiaoxi.png"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zonxurenshu.png",
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\zonxurenshu.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\qingdan_click.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\qingdan_click.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xingx.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\xingx.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\total_required_time.png",
@@ -18,6 +146,14 @@
     {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\refresh_arrow_down.png",
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\refresh_arrow_down.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\kaijian_click.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\kaijian_click.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\total_required_time.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\total_required_time.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\kaijian_click.png",
@@ -36,12 +172,20 @@
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\up.png"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xings.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\xings.png"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xings.png",
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\xings.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fenlei.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\fenlei.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xiaoxi.png",
@@ -52,40 +196,36 @@
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\qingdan.png"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\recharge.png",
-        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\recharge.png"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_bg.png",
-        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\app_bg.png"
-    },
-    {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shouye.png",
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\shouye.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zonxurenshu_up.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\zonxurenshu_up.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\item_bg.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\item_bg.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\total_demand.png",
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\total_demand.png"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down.png",
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\down.png"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fenlei.png",
-        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\fenlei.png"
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_bg.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\app_bg.png"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zonxurenshu_up.png",
-        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\zonxurenshu_up.png"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\kaijian.png",
-        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\kaijian.png"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wode_click.png",
-        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\wode_click.png"
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shouye_click.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\shouye_click.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
@@ -104,16 +244,16 @@
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\item_bg.png"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sousuo.png",
-        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\sousuo.png"
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\changjian.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\changjian.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shiyuan.png",
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\shiyuan.png"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shouye_click.png",
-        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\shouye_click.png"
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shouye.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\shouye.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\under_the_total_demand.png",
@@ -124,15 +264,11 @@
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\xingx.png"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\head_portrait.png",
-        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\head_portrait.png"
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down.png",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\down.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\goicon.png",
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\goicon.png"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wode.png",
-        "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable-hdpi\\wode.png"
     }
 ]

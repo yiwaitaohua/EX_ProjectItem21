@@ -1,4 +1,4 @@
-package com.chengchikeji_sqldata;
+package com.chengchikeji_bannerdata;
 
 public class Datum {
 

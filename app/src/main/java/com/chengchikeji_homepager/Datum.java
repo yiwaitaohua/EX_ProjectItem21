@@ -13,6 +13,35 @@ public class Datum {
     private String NAME;
     private String CATEID;
 
+    public Datum(String ID, String SID, String TITLE, Object DESCR, String IMGURL, String ZRS, String SYRS, String JINDU, String NAME, String CATEID) {
+        this.ID = ID;
+        this.SID = SID;
+        this.TITLE = TITLE;
+        this.DESCR = DESCR;
+        this.IMGURL = IMGURL;
+        this.ZRS = ZRS;
+        this.SYRS = SYRS;
+        this.JINDU = JINDU;
+        this.NAME = NAME;
+        this.CATEID = CATEID;
+    }
+
+    @Override
+    public String toString() {
+        return "Datum{" +
+                "ID='" + ID + '\'' +
+                ", SID='" + SID + '\'' +
+                ", TITLE='" + TITLE + '\'' +
+                ", DESCR=" + DESCR +
+                ", IMGURL='" + IMGURL + '\'' +
+                ", ZRS='" + ZRS + '\'' +
+                ", SYRS='" + SYRS + '\'' +
+                ", JINDU='" + JINDU + '\'' +
+                ", NAME='" + NAME + '\'' +
+                ", CATEID='" + CATEID + '\'' +
+                '}';
+    }
+
     /**
      * 
      * @return
