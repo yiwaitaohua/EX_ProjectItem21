@@ -1,6 +1,7 @@
 package com.chengchikeji_imageLoad;
 
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ImageLoader;
@@ -15,7 +16,11 @@ public class UilUtils {
     public static void displayImage(RequestQueue queue, String path, ImageView imageView1){
         imageLoader = new com.android.volley.toolbox.ImageLoader(queue, new BitmapCache());
         listener = com.android.volley.toolbox.ImageLoader.getImageListener(imageView1, R.drawable.ic_launcher, R.drawable.ic_launcher);
-        imageLoader.get(path, listener);
+        if(path!=null){
+            imageLoader.get(path, listener);
+        }else {
+            return;
+        }
     }
 
 }

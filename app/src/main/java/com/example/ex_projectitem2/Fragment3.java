@@ -22,7 +22,9 @@ public class Fragment3 extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		// Inflate the layout for this fragment
-		inflate = inflater.inflate(R.layout.fragment_fragment3, container, false);
+		if(inflate == null){
+			inflate = inflater.inflate(R.layout.fragment_fragment3, container, false);
+		}
 		MyGridView myGridView = (MyGridView) inflate.findViewById(R.id.MyGridView_cainixihuanb);
 		MyGridViewAdapter myGridViewAdapter = new MyGridViewAdapter();
 		myGridView.setAdapter(myGridViewAdapter);

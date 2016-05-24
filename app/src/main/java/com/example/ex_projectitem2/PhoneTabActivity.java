@@ -3,6 +3,7 @@ package com.example.ex_projectitem2;
 //import com.xinbo.utils.TextViewUtils;
 
 import android.app.Fragment;
+import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
@@ -39,6 +40,7 @@ public class PhoneTabActivity extends FragmentActivity {
 		// actionBar.setIcon(R.drawable.ic_launcher);
 		mTabHost = (FragmentTabHost) findViewById(android.R.id.tabhost);
 		mTabHost.setup(this, getSupportFragmentManager(), R.id.realtabcontent);
+		SharedPreferences aTrue = getSharedPreferences("true", 0);
 		initUI();
 	}
 	

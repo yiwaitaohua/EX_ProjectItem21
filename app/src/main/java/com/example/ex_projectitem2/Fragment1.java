@@ -36,7 +36,9 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -87,6 +89,7 @@ public class Fragment1 extends Fragment implements View.OnClickListener, MyScrol
         initClick();
         initControl();
         initData();
+        Log.e("Fragment1","initData");
 
     }
 
@@ -194,6 +197,15 @@ public class Fragment1 extends Fragment implements View.OnClickListener, MyScrol
     }
 
     @Override
+    public void onStart() {
+        super.onStart();
+        needAuto = true;
+        isUserDrag = false;
+        //切换tab,在其它tab页停留三秒以上，首页banner滑动停止
+//        autoBanner();
+    }
+
+    @Override
     public void onResume() {
         super.onResume();
         needAuto = true;
@@ -201,11 +213,18 @@ public class Fragment1 extends Fragment implements View.OnClickListener, MyScrol
     }
 
     @Override
-    public void onStop() {
-        super.onStop();
+    public void onPause() {
+        super.onPause();
         needAuto = false;
         isUserDrag = true;
     }
+
+//    @Override
+//    public void onStop() {
+//        super.onStop();
+//        needAuto = false;
+//        isUserDrag = true;
+//    }
 
     private void initClick() {
         inflate.findViewById(R.id.linearL_FenLei).setOnClickListener(this);
@@ -262,7 +281,11 @@ public class Fragment1 extends Fragment implements View.OnClickListener, MyScrol
             @Override
             public void run() {
                 // TODO Auto-generated method stub
-                mPullDownScrollView.finishRefresh("上次刷新时间:12:23");
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss ");
+                Date curDate = new Date(System.currentTimeMillis());//获取当前时间
+                String str = formatter.format(curDate);
+                mPullDownScrollView.finishRefresh("上次刷新时间:"+str);
+//                mPullDownScrollView.finishRefresh("上次刷新时间:12:23");
             }
         }, 2000);
     }
