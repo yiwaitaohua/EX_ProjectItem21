@@ -48,6 +48,10 @@
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable\\shouye_kaijian.xml"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\register_verification_code.xml",
+        "source": "E:\\AndroidStudioProjects\\EX_0523\\EX_ProjectItem21\\app\\src\\main\\res\\drawable\\register_verification_code.xml"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shouye_home.xml",
         "source": "E:\\AndroidStudioProjects\\EX_0518\\EX_ProjectItem21\\app\\src\\main\\res\\drawable\\shouye_home.xml"
     },
