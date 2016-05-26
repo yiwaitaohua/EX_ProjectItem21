@@ -57,22 +57,26 @@ public class Fragment2 extends Fragment {
 
     private void initData() {
         //post请求  获取即将开奖记录 POST 方法 参数： 空
-        String path = "http://yydb.willfun.com.cn/module/yiyuangou/api/home_jjkj.php";
+        String path = "http://yydb.willfun.com.cn/module/yiyuangou/api/send_sms.php";
+//        String path = "http://yydb.willfun.com.cn/module/yiyuangou/api/home_jjkj.php";
         RequestQueue requestQueue = Volley.newRequestQueue(getActivity());
         StringRequest stringRequest = new StringRequest(Request.Method.POST, path, new Response.Listener<String>() {
             @Override
             public void onResponse(String s) {
-                Log.e(" s", " s:" + s);
+                Log.e(" onResponse", " s:" + s);
             }
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError volleyError) {
 
+                System.out.println("请求错误:" + volleyError.toString());
             }
         }) {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 HashMap<String, String> map = new HashMap<>();
+                map.put("phone_number", "18649760295");
+                map.put("type", "reg");
                 return map;
             }
         };
