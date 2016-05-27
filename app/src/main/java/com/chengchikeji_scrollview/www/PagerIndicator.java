@@ -12,6 +12,7 @@ import com.example.ex_projectitem2.R;
 
 /**
  * Created by Administrator on 2016/5/13.
+ * banner自定义Indicator控件
  */
 public class PagerIndicator extends View{
 

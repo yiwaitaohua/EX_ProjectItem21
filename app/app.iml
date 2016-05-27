@@ -105,5 +105,7 @@
     <orderEntry type="library" exported="" name="support-v4-23.3.0" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-23.3.0" level="project" />
     <orderEntry type="module" module-name="volley" exported="" />
+    <orderEntry type="module" module-name="xutils" exported="" />
+    <orderEntry type="module" module-name="ActiveAndroid-3.1" exported="" />
   </component>
 </module>

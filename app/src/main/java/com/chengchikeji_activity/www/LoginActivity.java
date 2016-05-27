@@ -7,6 +7,9 @@ import android.view.View;
 
 import com.example.ex_projectitem2.R;
 
+/**
+ * 登入界面
+ */
 public class LoginActivity extends Activity implements View.OnClickListener {
 
     @Override
@@ -17,6 +20,9 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 
     }
 
+    /**
+     * 初始化ID
+     */
     private void initID() {
         initClick();
     }

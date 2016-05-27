@@ -11,6 +11,9 @@ import android.widget.TextView;
 
 import com.example.ex_projectitem2.R;
 
+/**
+ * 分类页面
+ */
 public class ClassificationActivity extends Activity implements View.OnClickListener {
 
     private int[] classification_picture = new int[]{R.drawable.fenlei_all_prizes, R.drawable.fenlei_ten_yuan_area, R.drawable.fenlei_mobile_tablet, R.drawable.fenlei_computer_office, R.drawable.fenlei_digital_video, R.drawable.fenlei_new_trend, R.drawable.fenlei_women_fashion, R.drawable.fenlei_home_life, R.drawable.fenlei_other_commodities};
@@ -26,6 +29,9 @@ public class ClassificationActivity extends Activity implements View.OnClickList
         inint();
     }
 
+    /**
+     * 初始化
+     */
     private void inint() {
         initClick();
     }

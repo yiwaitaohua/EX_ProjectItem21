@@ -9,6 +9,7 @@ import com.example.ex_projectitem2.R;
 
 /**
  * Created by Administrator on 2016/5/23.
+ *Volley 图片请求
  */
 public class UilUtils {
     private static ImageLoader imageLoader;

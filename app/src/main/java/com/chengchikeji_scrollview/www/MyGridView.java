@@ -6,6 +6,7 @@ import android.widget.GridView;
 
 /**
  * Created by Administrator on 2016/5/10.
+ * 自定义GridView解决在ScrollView里只显示一行的问题
  */
 public class MyGridView extends GridView {
     public MyGridView(Context context, AttributeSet attrs, int defStyleAttr) {

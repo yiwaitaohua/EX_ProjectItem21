@@ -18,6 +18,7 @@ import com.example.ex_projectitem2.R;
 
 /**
  * Created by Administrator on 2016/5/16.
+ * 首页向上滚动更新消息
  */
 public class HomePageNewsRolling extends LinearLayout {
 

@@ -7,6 +7,9 @@ import android.widget.RelativeLayout;
 
 import com.example.ex_projectitem2.R;
 
+/**
+ * 个人设置
+ */
 public class GeRenShezhiActivity extends Activity implements View.OnClickListener {
 
     @Override

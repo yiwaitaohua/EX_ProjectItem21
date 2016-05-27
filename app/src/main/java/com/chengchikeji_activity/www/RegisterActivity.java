@@ -23,6 +23,10 @@ import com.chengchikeji_register_verification.TextUtils;
 import com.chengchikeji_util.Constans;
 import com.example.ex_projectitem2.R;
 
+import org.xutils.common.Callback;
+import org.xutils.http.RequestParams;
+import org.xutils.x;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -32,6 +36,7 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
     private EditText registEditVerification;
     private EditText registEditLoginPwd;
     private EditText registEditConfirmLogin;
+    //测试
     private int i = 0;
     private Button btnObtainVerification;
 
@@ -42,6 +47,9 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
         initUI();
     }
 
+    /**
+     * 初始化
+     */
     private void initUI() {
         initControl();
         initClick();
@@ -132,24 +140,26 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
         }
 
 ////        Toast.makeText(this, "登入完成", Toast.LENGTH_SHORT).show();
-        HashMap<String, String> registe = new HashMap<>();
-        registe.put("phone_number","registEditPhone");
-        registe.put("password","registEditLoginPwd");
-        registe.put("sms_code","registEditVerification");
-        HTTPUtils.post(this,Constans.REGISTER_PATH,registe,new VolleyListener(){
+//        HashMap<String, String> registe = new HashMap<>();
+//        registe.put("phone_number","registEditPhone");
+//        registe.put("password","registEditLoginPwd");
+//        registe.put("sms_code","registEditVerification");
+//        HTTPUtils.post(this,Constans.REGISTER_PATH,registe,new VolleyListener(){
+//
+//            @Override
+//            public void onResponse(String arg0) {
+//                Log.e("注册成功","arg0:"+arg0);
+//                Toast.makeText(RegisterActivity.this, "注册成功", Toast.LENGTH_SHORT).show();
+//            }
+//
+//            @Override
+//            public void onErrorResponse(VolleyError arg0) {
+//                Toast.makeText(RegisterActivity.this, "注册失败", Toast.LENGTH_SHORT).show();
+//                Log.e("注册失败","arg0:"+arg0);
+//            }
+//        });
 
-            @Override
-            public void onResponse(String arg0) {
-                Log.e("注册成功","arg0:"+arg0);
-                Toast.makeText(RegisterActivity.this, "注册成功", Toast.LENGTH_SHORT).show();
-            }
 
-            @Override
-            public void onErrorResponse(VolleyError arg0) {
-                Toast.makeText(RegisterActivity.this, "注册失败", Toast.LENGTH_SHORT).show();
-                Log.e("注册失败","arg0:"+arg0);
-            }
-        });
 
 //        RequestQueue requestQueue = Volley.newRequestQueue(this);
 //        StringRequest stringRequest = new StringRequest(Request.Method.POST, Constans.REGISTER_PATH, new Response.Listener<String>() {
@@ -175,6 +185,32 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
 //        };
 //        requestQueue.add(stringRequest);
 
+        RequestParams requestParams = new RequestParams(Constans.REGISTER_PATH);
+        requestParams.addParameter("phone_number",registEditPhone);
+        requestParams.addParameter("password",registEditLoginPwd);
+        requestParams.addParameter("sms_code",registEditVerification);
+        x.http().post(requestParams, new Callback.CommonCallback<String>() {
+            @Override
+            public void onSuccess(String arg0) {
+                Log.e("注册成功","onSuccess:"+arg0);
+            }
+
+            @Override
+            public void onError(Throwable throwable, boolean b) {
+
+            }
+
+            @Override
+            public void onCancelled(CancelledException e) {
+
+            }
+
+            @Override
+            public void onFinished() {
+
+            }
+        });
+
 
 
     }
@@ -193,38 +229,63 @@ public class RegisterActivity extends Activity implements View.OnClickListener {
             registEditPhone.setError("手机号码格式错误");
             return;
         }
-        HashMap<String, String> params = new HashMap<>();
-        params.put("phone_number", EditPhone);
-        params.put("type", "reg");
-        HTTPUtils.get(this, Constans.VERIFICATION_PATH, params, new VolleyListener() {
+//        HashMap<String, String> params = new HashMap<>();
+//        params.put("phone_number", EditPhone);
+//        params.put("type", "reg");
+//        HTTPUtils.get(this, Constans.VERIFICATION_PATH, params, new VolleyListener() {
+//            @Override
+//            public void onResponse(String arg0) {
+//                Log.e("onResponse", "arg0:" + arg0);
+//            }
+//
+//            @Override
+//            public void onErrorResponse(VolleyError arg0) {
+//                System.out.println("请求错误:" + arg0.toString());
+//            }
+//        });
+//        btnObtainVerification.setClickable(false);
+//        btnObtainVerification.postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                i++;
+//                if (i <= 60) {
+//                    btnObtainVerification.setText("验证码已发送(" + (60 - i) + ")");
+//                    btnObtainVerification.setTextColor(Color.parseColor("#E6E6E6"));
+//                    btnObtainVerification.setBackgroundResource(R.drawable.register_verification_code);
+//                    btnObtainVerification.postDelayed(this, 1000);
+//                } else {
+//                    btnObtainVerification.setClickable(true);
+//                    btnObtainVerification.setText("重新获取验证码");
+//                    btnObtainVerification.setTextColor(Color.parseColor("#ED483A"));
+//                    btnObtainVerification.setBackgroundColor(Color.parseColor("#00000000"));
+//                }
+//            }
+//        }, 1000);
+
+        RequestParams params = new RequestParams(Constans.VERIFICATION_PATH);
+        params.addParameter("phone_number",EditPhone);
+        params.addParameter("type","reg");
+        x.http().get(params, new Callback.CommonCallback<String>() {
             @Override
-            public void onResponse(String arg0) {
-                Log.e("onResponse", "arg0:" + arg0);
+            public void onSuccess(String arg0) {
+                Log.e("onSuccess", "arg0:" + arg0);
             }
 
             @Override
-            public void onErrorResponse(VolleyError arg0) {
-                System.out.println("请求错误:" + arg0.toString());
+            public void onError(Throwable throwable, boolean b) {
+
+            }
+
+            @Override
+            public void onCancelled(CancelledException e) {
+
+            }
+
+            @Override
+            public void onFinished() {
+
             }
         });
-        btnObtainVerification.setClickable(false);
-        btnObtainVerification.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                i++;
-                if (i <= 60) {
-                    btnObtainVerification.setText("验证码已发送(" + (60 - i) + ")");
-                    btnObtainVerification.setTextColor(Color.parseColor("#E6E6E6"));
-                    btnObtainVerification.setBackgroundResource(R.drawable.register_verification_code);
-                    btnObtainVerification.postDelayed(this, 1000);
-                } else {
-                    btnObtainVerification.setClickable(true);
-                    btnObtainVerification.setText("重新获取验证码");
-                    btnObtainVerification.setTextColor(Color.parseColor("#ED483A"));
-                    btnObtainVerification.setBackgroundColor(Color.parseColor("#00000000"));
-                }
-            }
-        }, 1000);
 
 
     }

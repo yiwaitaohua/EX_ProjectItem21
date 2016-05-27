@@ -3,6 +3,9 @@ package com.chengchikeji_homepager;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 首页信息listview
+ */
 public class Homepageritem {
 
     private String status;

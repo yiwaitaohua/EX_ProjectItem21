@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ActiveAndroid-3.1.ActiveAndroid-3.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ActiveAndroid-3.1/ActiveAndroid-3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -12,6 +12,7 @@ import com.example.ex_projectitem2.R;
 
 /**
  * A simple {@link Fragment} subclass.
+ * banner 轮播图实现布局
  */
 public class HomePagerBannerFragment extends Fragment {
 

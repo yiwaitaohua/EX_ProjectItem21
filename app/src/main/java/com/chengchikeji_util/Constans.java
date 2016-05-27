@@ -2,6 +2,7 @@ package com.chengchikeji_util;
 
 /**
  * Created by Administrator on 2016/5/23.
+ * 请求数据接口
  */
 public class Constans {
     public static String VERIFICATION_PATH = "http://yydb.willfun.com.cn/module/yiyuangou/api/send_sms.php";

@@ -5,6 +5,9 @@ import android.os.Bundle;
 
 import com.example.ex_projectitem2.R;
 
+/**
+ * 首页搜索层叠布局
+ */
 public class Seach_Home_Page_Activity extends Activity {
 
     @Override

@@ -3,6 +3,9 @@ package com.chengchikeji_bannerdata;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * banner 轮播图
+ */
 public class BannerData {
 
     private String status;

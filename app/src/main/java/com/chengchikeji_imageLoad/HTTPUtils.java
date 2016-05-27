@@ -32,6 +32,13 @@ public class HTTPUtils {
 
     }
 
+    /**
+     * GET带参数请求
+     * @param context
+     * @param url
+     * @param params
+     * @param listener
+     */
     public static void get(Context context, String url, Map<String, String> params, final VolleyListener listener) {
         url = buildParams(url, params);
         get(context, url, listener);
